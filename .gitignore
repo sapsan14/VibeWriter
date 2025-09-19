@@ -1,0 +1,142 @@
+# General OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Caches and temp files
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.prettier-cache
+.tsbuildinfo
+tmp/
+.tmp/
+
+# Node / JS
+node_modules/
+coverage/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+storybook-static/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.coverage*
+htmlcov/
+.ipynb_checkpoints/
+.pyre/
+.pytype/
+pip-wheel-metadata/
+venv/
+.venv/
+ENV/
+env/
+
+# Java / Kotlin / Gradle
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+target/
+
+# Rust
+target/
+
+# Go
+bin/
+
+# Ruby
+/.bundle/
+/vendor/bundle/
+/log/
+/tmp/
+
+# PHP / Composer
+composer.phar
+/vendor/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+.fleet/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Docker
+.docker/
+
+# Testing outputs
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+coverage-final.json
+
+# Terraform
+.terraform/
+*.tfstate*
+crash.log
+
+# Certificates and keys
+*.pem
+*.key
+*.p12
+*.crt
+
+# Compiled/binary artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
